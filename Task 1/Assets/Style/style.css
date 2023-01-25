@@ -64,7 +64,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 10px;
     /* float: left; */
-    border: solid rgb(21, 2, 2) 1px;
+    /* border: solid rgb(21, 2, 2) 1px; */
     display: inline-block;
     margin-top: 0px;
 }
