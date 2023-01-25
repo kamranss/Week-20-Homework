@@ -24,8 +24,8 @@ body{
 
 .navbar{
     /* width: 1430px; */
-    height: 65px;
-    border: solid rgb(150, 8, 8) 5px;
+    height: 55px;
+    /* border: solid rgb(150, 8, 8) 5px; */
     /* padding-top: 15px; */
     text-decoration: none;
     display: flex;
@@ -42,10 +42,16 @@ body{
     border: solid rgb(142, 43, 43) 1px;
     display: inline-block;
     height: 55px;
+    width: 210px;
     margin-top: 3px;
     margin-left: 120px;
     color: white;
+    font-size: 25px;
+    padding: 6px;
+    /* display: flex;
+    align-items: center; */
 }
+
 
 .menu{
     width: 500px;
@@ -61,20 +67,20 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid rgb(29, 8, 8) 1px;
+    /* border: solid rgb(29, 8, 8) 1px; */
     height: 55px;
     margin-left: 15px;
     margin-right: 15px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     padding: 2px;
 }
 ul li{
     list-style: none;
     margin-left: 62px;
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 20px;
-    height: 50px;
+    height: 40px;
     border-right: solid rgb(187, 183, 183) 2px;
     padding: 3px;
     /* transition: 0.5s ease-in-out; */
@@ -111,25 +117,26 @@ ul li a:hover{
 
 .second_container{
     background-color: rgba(194, 200, 206, 0.74);
-    /* background-image: url("../Images/image3.webp");  */
+    background-image: url("../Images/sand3.jpg"); 
     background-repeat: no-repeat;
     background-size: cover;
     /* width: 1300px; */
     height: 540px;
     /* border: solid rgb(170, 34, 34) 5px; */
     text-decoration: none;
-    margin-top: 5px;
+    /* margin-top: 5px; */
     display: flex;
     justify-items: center;
 }
 
 .second_container .personal_info{
     width: 600px;
-    height: 534px;
-    border: solid rgb(170, 34, 34) 5px;
+    height: 512px;
+    /* border: solid rgb(170, 34, 34) 5px; */
     background-color: whitesmoke;
-    margin-top: 5px;
+    margin-top: 27px;
     margin-left: 120px;
+
 }
 
 .about_me_h1{
@@ -144,19 +151,20 @@ ul li a:hover{
 
 .personal_info_img_h1_p{
     width: 594px;
-    height: 470px;
-    border: solid rgb(170, 34, 34) 5px;
+    height: 430px;
+    /* border: solid rgb(170, 34, 34) 5px; */
     background-color: whitesmoke;
     margin-top: 5px;
 }
 .img_border{
     width: 190px;
     height: 232px;
+    margin-left: 20px;
     /* display: flex;
     align-items: center;
     background-repeat: no-repeat; */
-    background-size: cover;   
-    border: solid rgb(170, 34, 34) 5px;
+    /* background-size: cover;    */
+    /* border: solid rgb(170, 34, 34) 5px; */
     float: left; 
 }
 .main_img{
@@ -166,8 +174,11 @@ ul li a:hover{
     display: flex;
     align-items: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
     
+}
+.personal_info_img_h1_p h1{
+    color: rgb(120, 115, 115);
 }
 p{
     margin-top: 15px;
@@ -175,21 +186,49 @@ p{
     height: 400px;
     line-height: 27px;
     color: rgb(120, 115, 115);
-    
+    text-align: justify;    
 }
 
 
 .contact_info{
-    width: 400px;
-    height: 200px;
-    border: solid rgb(170, 34, 34) 5px;
-    margin-top: 10px;
-    margin-left: 150px;
+    width: 390px;
+    height: 165px;
+    /* border: solid rgb(170, 34, 34) 5px; */
+    margin-top: 27px;
+    margin-left: 160px;
     background-color: whitesmoke;
 }
 
-.icons_head{
+.icons{
     width: 370px;
+    height: 100px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;   
+}
+
+.github, .linkedin, .stackf{
+    width: 80px;
+    height: 60px;
+    margin-left: 44px;  
+}
+
+.github img{
+    width: 70px;
+    height: 65px;
+}
+.linkedin img{
+    width: 70px;
+    height: 65px;
+}
+.stackf img{
+    width: 70px;
+    height: 65px;
+}
+
+.icons_head{
+    width: 350px;
+    margin-left: 20px;
     height: 40px;
     border-bottom: solid rgb(203, 199, 199) 4px;
     color: rgb(18, 174, 171);
@@ -201,7 +240,7 @@ p{
     margin-left: 70px;
 }
 .footer{
-    /* width: 1420px; */
+    width: 1442px;
     height: 70px;
     /* border: solid rgb(170, 34, 34) 5px; */
     /* margin-top: 27px; */
@@ -211,10 +250,12 @@ p{
     backface-visibility: visible;
     display: flex;
     align-items: center;
+    margin-left: 3px;
+    margin-right: 3px;
 
 }
 .footer h2{
-    margin-left: 640px;
+margin-left: 640px;
 color: rgb(159, 151, 151);
 font-size: 18px;
 }
