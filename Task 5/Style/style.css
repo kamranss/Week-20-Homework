@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #d6dfe2;
+}
+
+
+  @font-face {
+    font-family: myFirstFont;
+    src: url('../Fonts/Pacifico-Regular.ttf');
+  }
+
+  .main_container{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sub_container{
+    background-color: white;
+    width: 70%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .middle_container{
+    width: 70%;
+    height: 70%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+  }
+  .box1{
+    width: 40%;
+    height: 100%;
+    background-color: rgb(12, 69, 107);
+    /* align-items: center;
+    justify-content: center; */
+    /* padding: 30px; */
+    /* position: relative; */
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: stretch;
+    align-items: baseline;
+    justify-items: auto;
+    justify-items: center;
+    justify-content: center; */
+  }
+  .image{
+    width: 70%;
+    height: 60%;
+    /* background-image: url("/Images/image1.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    object-fit: cover;
+    object-fit: fill; */
+    border: solid grey 3px;
+    display: flex;
+    justify-content: center;
+    margin: auto 40px;
+  }
+  .image img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .name_surname{
+    width: 100%;
+  }
+  .name_surname h1,h3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .name_surname h3{
+    margin-top: 10px;
+    font-weight: 200;
+  } 
+  .box2{
+    width: 60%;
+    height: 100%;
+    background-color: rgb(202, 194, 194);
+    border: solid grey 3px;
+    color: black;
+    justify-content: space-between;
+     
+  }
+  .heading h1{
+    border-bottom: solid rgb(164, 156, 156) 2px;
+    color: black;
+    width: 80%;
+    margin-top: 40px;
+    margin-left: 40px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  .contact_info{
+    margin-top: 20px;
+    display: flex;
+    /* justify-content: center; */
+    width: 100%;
+    justify-content: space-around;
+  }
+  .box2 .contact_info h3,p{
+    color: black;
+    width: 100%;
+    /* margin-left: 20px; */
+  }
+  .box2 .contact_info h3{
+    justify-content: left;
+  }
+
+  .icons{
+    margin-top: 70px;
+    display: flex;
+    width: 100%;
+    height: 50%;
+    justify-content: space-around;  
+  }
+.icons .gg-facebook, .gg-twitter, .gg-instagram, .gg-youtube{
+    background-color: rgb(12, 69, 107);
+}
+.icons i{
+}
+  
