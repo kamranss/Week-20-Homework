@@ -29,6 +29,7 @@
     
   }
   .middle_container{
+    overflow: hidden;
     width: 70%;
     height: 70%;
     border-top-left-radius: 5px;
@@ -124,11 +125,23 @@
     display: flex;
     width: 100%;
     height: 50%;
-    justify-content: space-around;  
+    justify-content: space-around;
   }
-.icons .gg-facebook, .gg-twitter, .gg-instagram, .gg-youtube{
+
+.icons .fa-brands{
     background-color: rgb(12, 69, 107);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;  
 }
 .icons i{
+    font-size: 40px;
 }
   
